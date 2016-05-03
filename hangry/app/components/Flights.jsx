@@ -25,7 +25,7 @@ export default class Flights extends React.Component {
   }
 
   render() {
-    console.log(this.state.data);
+    // console.log(this.state.data);
     var flights = this.state.data.map((flight, i) =>
       <div  className="table__row" key={i}><Flight raw={flight} /></div>
     );
